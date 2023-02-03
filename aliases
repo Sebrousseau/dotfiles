@@ -7,3 +7,57 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 # NOTE: On Q3 2021, Le Wagon decided to change the Web Dev curriculum default text editor
 alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' && code ."
+
+# Git alias
+alias amend="git commit --amend"
+alias gci="git commit -m"
+alias gp="git push"
+alias gpo="git push origin"
+alias gpl="git pull"
+alias gplo="git pull origin"
+alias gst="git status -s"
+alias gm="git merge"
+alias gco="git checkout"
+alias ga="git add"
+alias gau="git add -u"
+alias gd="git diff"
+alias gb="git branch"
+alias gl="git log"
+alias glp="git log -p"
+alias gs="git stash"
+alias gr="git rebase"
+alias grm="git rebase master"
+alias grc="git rebase --continue"
+alias grs="git restore --staged"
+alias glo="git log --pretty=oneline"
+alias gmt="git mergetool"
+
+# Rails aliases
+alias rc='rails console'
+alias rd='rails destroy'
+alias rg='rails generate'
+alias rgm='rails generate migration'
+alias rr='rails routes'
+alias rra='rails routes | ag'
+alias rs='rails server'
+
+# Rake aliases
+alias rdm='rake db:migrate'
+alias rdr='rake db:rollback'
+alias rdc='rake db:create'
+alias rds='rake db:seed'
+alias rdd='rake db:drop'
+alias rdrs='rake db:reset'
+alias rdtc='rake db:test:clone'
+alias rdtp='rake db:test:prepare'
+alias rdmtc='rake db:migrate db:test:clone'
+alias rdsl='rake db:schema:load'
+alias rlc='rake log:clear'
+
+alias bi='bundle install'
+alias bu='bundle update'
+alias be='bundle exec'
+
+alias side='bundle exec sidekiq -C config/sidekiq.yml'
+
+alias wds='webpack-dev-server'

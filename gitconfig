@@ -14,6 +14,7 @@
   editor = code
 
 [alias]
+  graph = log --oneline --graph --decorate
   co = checkout
   st = status -sb
   br = branch
@@ -22,6 +23,13 @@
   d = !git --no-pager diff
   dt  = difftool
   stat = !git --no-pager diff --stat
+  amend= git commit --amend
+  gci = git commit -m
+  gp = git push
+  gpo = git push origin
+
+
+
 
   # Clean merged branches
   sweep = !git branch --merged master | grep -v 'master$' | xargs git branch -d && git remote prune origin

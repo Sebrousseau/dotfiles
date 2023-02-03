@@ -27,7 +27,7 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "vscode-icons",
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -62,7 +62,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
@@ -79,5 +78,7 @@
         "rubocop": true
     },
     "ruby.intellisense": "rubyLocate",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.accessibilitySupport": "off",
+    "git.confirmSync": false
 }
